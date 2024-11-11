@@ -1,0 +1,43 @@
+:root {
+    --text-outline-girth: 2px;
+}
+
+* {
+    font-family: "Comic Sans MS", Georgia, Serif;
+}
+
+/* Sans */
+div[aria-label^="Subscriber"] a[href~="https://discord.com/settings/premium"] img {
+    content: url(https://github.com/FlooferLand/sanscord/blob/main/content/sillygoober.png?raw=true) !important;
+}
+
+*[class^="username"], *[class^=""] {
+    font-size: 100%;
+    line-height: 1.5;
+    font-weight: bold;
+
+    text-shadow:
+        #000 0px 0px var(--text-outline-girth),
+        #000 0px 0px var(--text-outline-girth),
+        #000 0px 0px var(--text-outline-girth),
+        #000 0px 0px var(--text-outline-girth),
+        #000 0px 0px var(--text-outline-girth),
+        #000 0px 0px var(--text-outline-girth);
+    -webkit-font-smoothing: antialiased;
+}
+
+*[id^="message-content"] {
+    font-size: 80%;
+    letter-spacing: 1px;
+    line-height: 150%;
+    font-weight: normal;
+
+    transform: scale(1.1, 1.0);
+    transform-origin: 9% 0;
+    width: 95%;
+}
+
+*[class^="activityText"] {
+    font-weight: normal;
+    font-size: 90%;
+}
