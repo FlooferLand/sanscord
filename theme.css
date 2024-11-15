@@ -41,3 +41,10 @@ div[aria-label^="Subscriber"] a[href~="https://discord.com/settings/premium"] im
     font-weight: normal;
     font-size: 90%;
 }
+
+/** Replies */
+div[class^="repliedTextPreview"] {
+    margin-left: 5pt;
+    width: 100%;
+    color: rgb(141, 141, 141);
+}
